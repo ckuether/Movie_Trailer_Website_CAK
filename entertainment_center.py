@@ -32,6 +32,6 @@ midnight_in_paris = media.Movie('Midnight in Paris',
     'https://www.youtube.com/watch?v=FAfR8omt-CY')
 
 movies = [toy_story, avatar, matrix, school_of_rock, ratatouille, midnight_in_paris]
-# fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies)
 # print(media.Movie.VALID_RATINGS)
-print(media.Movie.__doc__)
+# print(media.Movie.__doc__)
