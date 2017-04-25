@@ -1,6 +1,6 @@
 import media
 import fresh_tomatoes
-#testing
+
 toy_story = media.Movie('Toy Story',
     'A story of a boy and his toys that come to life',
     'https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg',
@@ -12,8 +12,9 @@ avatar = media.Movie('Avatar',
     'https://www.youtube.com/watch?v=5PSNL1qE6VY')
 
 matrix = media.Movie('Matrix',
-    'Neo believes that Morpheus, an elusive figure considered to be the most dangerous man alive, can answer his question -- What is the Matrix?',
-    'https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Matrix_Poster.jpg/220px-The_Matrix_Poster.jpg',
+    'Neo believes that Morpheus, an elusive figure considered to be the most' +
+    'dangerous man alive, can answer his question -- What is the Matrix?',
+    'https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Matrix_Poster.jpg/220px-The_Matrix_Poster.jpg', # NOQA
     'https://www.youtube.com/watch?v=m8e-FF8MsqU')
 
 school_of_rock = media.Movie('School of Rock',
